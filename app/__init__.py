@@ -6,7 +6,7 @@ from flask_login import LoginManager
 from flask_mail import Mail
 
 app = Flask(__name__)
-app.config["SQLALCHEMY_DATABASE_URI"] = 'postgresql+psycopg2://ali:Access@localhost/piitch'
+app.config["SQLALCHEMY_DATABASE_URI"] = 'postgresql+psycopg2://ali:Access@localhost/gedii'
 db = SQLAlchemy(app)
 login_manager = LoginManager(app)
 bootstrap = Bootstrap(app)

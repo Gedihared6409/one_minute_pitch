@@ -2,7 +2,7 @@ import os
 class Config:
 
     SECRET_KEY = 'Access'
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://ali:Access@localhost/piitch'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://ali:Access@localhost/gedii'
 
     
     MAIL_SERVER = 'smtp.googlemail.com'
@@ -17,7 +17,7 @@ class ProdConfig(Config):
     pass
 class DevConfig(Config):
 
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://ali:Access@localhost/piitch'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://ali:Access@localhost/gedii'
     DEBUG = True
     
 config_options = {
