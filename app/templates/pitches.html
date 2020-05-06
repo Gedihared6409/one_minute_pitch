@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% import 'bootstrap/wtf.html' as wtf %}
+
+
+{% block content %}
+<div class="container">
+	<div class="row">
+		<div class="jumbotron" style="color: blue; font-size: 30px; text-align: center">PITCH HERE</div>
+			<div style="margin-top: 30px">{{wtf.quick_form(form)}}</div>
+		<ul style="list-style: none;">
+				{% for pitch in pitches %}
+					<div class="list-group">
+						<a href="#">
+							<div class="list-item">
+								<p>{{pitch.id}}</p>
+							</div>
+							<h4>{{ pitch.description }}</h4>
+							<h6> Posted by {{user.username}}.</h6>
+						</a>
+					</div>
+				{% endfor %}
+		</ul>
+		
+	</div>
+</div>
+	
+	
+{% endblock %}
