@@ -14,3 +14,14 @@ class PitchForm(FlaskForm):
 class CommentForm(FlaskForm):
 	description = TextAreaField('Add comment',validators=[Required()])
 	submit = SubmitField()
+
+class UpvoteForm(FlaskForm):
+	submit = SubmitField()
+
+
+class Downvote(FlaskForm):
+	submit = SubmitField()
+
+class UpdateProfile(FlaskForm):
+    bio = TextAreaField('Tell us about you.',validators = [Required()])
+    submit = SubmitField('Submit')	
