@@ -2,7 +2,7 @@
 A web application that lets users submit pitches based on different categories
 
 ## Author
-Margaret Ngethe
+gediali
 
 
 
@@ -86,7 +86,7 @@ Technical Requirements
 
 This can be found in the specs.md file.
 
-## Github link https://pitchx.herokuapp.com
+## Github link 
 
 ## User Stories
 A user can see the pitches posted by other people
@@ -115,10 +115,10 @@ No known bugs so far
 
 ## Support Details
 
-ciru930@gmail.com
+gediali@gmail.com
 
 ## MIT License
-Copyright (c) [2020] [Margaret Ngethe]
+Copyright (c) [2020] [ali hared gedi]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
